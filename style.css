@@ -1,0 +1,188 @@
+*{
+   margin: 0;
+   padding: 0;
+   text-transform: capitalize;
+   box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    height: 40px;
+}
+.header p{
+    margin:10px 0 0 100px ;
+}
+.photo{
+    height: 70vh;
+    background-image: url("../images/headerbg2.png");
+    background-attachment: fixed;
+    text-align: center;
+}
+.photo h1{
+    color: white;
+    font-weight: bold;
+    padding-top: 5%;
+    font-size: 50px;
+}
+.photo .line{
+    height: 3px;
+    width: 25%;
+    background-color:rgb(67, 230, 230);
+    margin:1% 0 1% calc(75% /2);
+
+}
+.photo .p2{
+    border: 1px rgb(67, 230, 230) solid;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 3px;
+    display: inline-block;
+}
+.simple , .imgs{
+    background-color:rgb(219, 228, 237);
+}
+.continer{
+    width: 80%;
+    /* margin: 0 10% 0 10%; */
+    margin: auto;
+}
+.simple h1 , .imgs h2 , .form h2{
+    padding: 3% 0 1% 0;
+    text-align: center;
+}
+.simple p{
+    line-height: 25px;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.icons{
+    overflow: hidden;
+}
+.icons .child{
+    width: 30%;
+    text-align: center;
+    line-height: 25PX;
+    float: left;
+    padding-bottom:5% ;
+}
+.icons .child img{
+    width: 70px;
+    height: 70px;
+    margin: 50PX 100PX 25PX 100PX;
+    
+}
+.c_cinter{
+    margin:0 5%;
+}
+
+.icons .child p {
+    margin: 0 40px;
+}
+.imgs p{
+    text-align: center;
+    font-size: 15px;
+    color:rgb(136, 151, 164) ;
+} 
+.img-child{
+    margin-top: 4%;
+}
+.img-child img{
+    width: 30%;
+}
+.img-child .img2{
+    margin: 0 4%;
+}
+.img-child .line2{
+    margin-top: 4%;
+    padding-bottom: 5%;
+}
+/* ---------------------------------- */
+.form{
+    background-image: url("../images/contactbg.png");
+}
+.black{
+    height: 100vh;
+    /* background-color: black;
+    opacity: .5; */
+    background-color: rgb(0, 0,0 , .5);
+    
+}
+.form h2{
+    color: white;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form p{
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.form form{
+    width: 50%;
+    margin: auto;
+}
+.form form .child{
+    width: 50%;
+    margin: 5% 0 0 30%;
+    border: 1px white solid;
+    height: 40px;
+    border-radius: 3px;
+    padding: 10px;
+    background: transparent;
+    color: white;
+}
+.form form textarea{
+    width: 50%;
+    height: 200px ;
+    border-radius: 3px;
+    border: 1px white solid;
+    opacity: .5;
+    margin: 5% 0 5% 30%;
+    padding: 10px;
+    background: transparent;
+}
+::placeholder {
+    color: white;
+}
+
+.form form label{
+    color: white;
+    margin: 0 20% 0 2%;
+}
+.form form .child2{
+    margin-left: 30%;
+}
+.form form .child3{
+    padding: 5px 15px;
+    background: transparent;
+    border: 1px rgb(67, 230, 230) solid;
+    color: white;
+    border-radius: 3px;
+}
+/* /////////////////////////////////////////////////////// */
+.footer{
+    height: 80px;
+    overflow: hidden;
+}
+.footer div{
+    float: left;
+    padding: 10px 0 0 30px;
+    font-size: 20px;
+}
+.footer .text{
+    width: 70%;
+    color: gray;
+}
+.footer .icons{
+    width: 30%;
+}
+
+.footer .icons i{
+    color:white;
+    width: 50px;
+    height: 50px;
+    background-color:rgb(0, 174, 255) ;
+    padding: 15px;
+}
+
+/*  */
